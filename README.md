@@ -54,7 +54,7 @@ cyber/
 │       ├── apple-touch-icon.png # iOS home screen icon
 │       ├── logo-192x192.png   # PWA icon (192x192)
 │       └── logo-512x512.png   # PWA icon (512x512)
-└── README.md                  # This file
+└── README.md                  # documentation
 ```
 
 ## How to Use
@@ -106,15 +106,17 @@ To update the favicon:
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is open source and available under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
-For questions or feedback, please connect with me on [LinkedIn](https://www.linkedin.com/in/kyofficial/)
+For questions or feedback, feel free to reach out:
+
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-username/)
+
+Or connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-username/)
 
 ---
 
