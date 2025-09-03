@@ -108,9 +108,13 @@ To update the favicon:
 
 This project is open source and available under the [MIT License](LICENSE).
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+See the [LICENSE](LICENSE) file for more details.
+
 ## Contact
 
-For questions or feedback, please contact [Your Name] at [your.email@example.com]
+For questions or feedback, please connect with me on [LinkedIn](https://www.linkedin.com/in/kyofficial/)
 
 ---
 
