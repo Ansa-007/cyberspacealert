@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSpaceAlert - Phishing Awareness</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Android/Chrome -->
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="msapplication-TileColor" content="#1a1a2e">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="progress-bar"></div>
+    
+    <header class="main-header">
+        <div class="logo">
+            <img src="assets/images/logo.svg" alt="CyberSpaceAlert Logo">
+            <span>CyberSpaceAlert</span>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="nav-dots">
+            <!-- Dots will be added by JavaScript -->
+        </nav>
+
+        <!-- Slides -->
+        <div class="slides">
+            <!-- Slide 1: Title -->
+            <section class="slide active" data-bg="#1a1a2e">
+                <div class="content">
+                    <h1 class="title">Phishing Awareness Training</h1>
+                    <p class="subtitle">Learn to identify and avoid phishing attacks</p>
+                    <div class="scroll-hint">
+                        <span>Scroll to continue</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="floating-shapes">
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                </div>
+            </section>
+
+            <!-- Slide 2: What is Phishing -->
+            <section class="slide" data-bg="#16213e">
+                <div class="content">
+                    <h2><i class="fas fa-shield-alt"></i> What is Phishing?</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <i class="fas fa-fish"></i>
+                            <h3><i class="fas fa-mask"></i> Deceptive Attempt</h3>
+                            <p>Fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-envelope"></i>
+                            <h3><i class="fas fa-broadcast-tower"></i> Common Channels</h3>
+                            <p>Emails, text messages, social media, or phone calls that appear legitimate.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-bullseye"></i>
+                            <h3><i class="fas fa-bullseye"></i> Main Goals</h3>
+                            <p>Steal login credentials, install malware, or gain access to sensitive data.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3: How to Recognize Phishing -->
+            <section class="slide" data-bg="#0f3460">
+                <div class="content">
+                    <h2><i class="fas fa-search"></i> How to Recognize Phishing</h2>
+                    <div class="warning-signs">
+                        <div class="sign">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <p>Urgent or threatening language</p>
+                        </div>
+                        <div class="sign">
+                            <i class="fas fa-at"></i>
+                            <p>Suspicious sender's email address</p>
+                        </div>
+                        <div class="sign">
+                            <i class="fas fa-link"></i>
+                            <p>Hover to check URLs before clicking</p>
+                        </div>
+                        <div class="sign">
+                            <i class="fas fa-spell-check"></i>
+                            <p>Poor spelling and grammar</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4: Real-world Examples -->
+            <section class="slide" data-bg="#1a1a2e">
+                <div class="content">
+                    <h2><i class="fas fa-exclamation-triangle"></i> Real-world Examples</h2>
+                    <div class="example-container">
+                        <div class="example-card">
+                            <div class="example-header">
+                                <i class="fas fa-envelope"></i>
+                                <h3>Fake Bank Alert</h3>
+                            </div>
+                            <p>"Your account has been locked. Click here to verify your information."</p>
+                            <div class="red-flag">
+                                <i class="fas fa-flag"></i>
+                                <span>Banks never ask for sensitive information via email</span>
+                            </div>
+                        </div>
+                        <div class="example-card">
+                            <div class="example-header">
+                                <i class="fab fa-whatsapp"></i>
+                                <h3>Unexpected Prize</h3>
+                            </div>
+                            <p>"You've won a prize! Click here to claim your reward."</p>
+                            <div class="red-flag">
+                                <i class="fas fa-flag"></i>
+                                <span>If it sounds too good to be true, it probably is</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5: Interactive Quiz -->
+            <section class="slide quiz-slide" data-bg="#16213e">
+                <div class="content">
+                    <h2><i class="fas fa-question-circle"></i> Test Your Knowledge</h2>
+                    <div class="quiz-container">
+                        <div class="quiz-question">
+                            <p>You receive an email from your bank asking you to confirm your account details by clicking a link. What should you do?</p>
+                            <div class="quiz-options">
+                                <button class="quiz-option" data-correct="false">Click the link and enter your details</button>
+                                <button class="quiz-option" data-correct="true">Contact the bank directly using official contact information</button>
+                                <button class="quiz-option" data-correct="false">Forward the email to your colleagues to verify</button>
+                            </div>
+                        </div>
+                        <div class="quiz-feedback"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 6: Best Practices -->
+            <section class="slide" data-bg="#0f3460">
+                <div class="content">
+                    <h2><i class="fas fa-check-circle"></i> Best Practices</h2>
+                    <div class="practices">
+                        <div class="practice">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Verify the Sender</h3>
+                            <p>Always check the sender's email address carefully.</p>
+                        </div>
+                        <div class="practice">
+                            <i class="fas fa-lock"></i>
+                            <h3>Use Multi-Factor Authentication</h3>
+                            <p>Add an extra layer of security to your accounts.</p>
+                        </div>
+                        <div class="practice">
+                            <i class="fas fa-sync-alt"></i>
+                            <h3>Keep Software Updated</h3>
+                            <p>Regularly update your operating system and applications.</p>
+                        </div>
+                        <div class="practice">
+                            <i class="fas fa-question-circle"></i>
+                            <h3>When in Doubt, Ask</h3>
+                            <p>Verify suspicious messages with your IT department.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 7: Thank You -->
+            <section class="slide" data-bg="#1a1a2e">
+                <div class="content">
+                    <h2><i class="fas fa-flag"></i> Stay Vigilant!</h2>
+                    <p class="thank-you">Thank you for completing the Phishing Awareness Training.</p>
+                    <div class="key-takeaways">
+                        <h3><i class="fas fa-clipboard-list"></i> Key Takeaways</h3>
+                        <ul>
+                            <li>Always verify the sender's email address</li>
+                            <li>Think before clicking on links or downloading attachments</li>
+                            <li>Report suspicious emails to your IT department</li>
+                            <li>When in doubt, ask for help</li>
+                        </ul>
+                    </div>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> For questions or to report suspicious activity, contact:</p>
+                        <p class="contact-email">security@yourcompany.com</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
