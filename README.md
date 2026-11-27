@@ -116,8 +116,6 @@ For questions or feedback, feel free to reach out:
 
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kyofficial/)
 
-
-
 ---
 
 *This training module is for educational purposes only.*
